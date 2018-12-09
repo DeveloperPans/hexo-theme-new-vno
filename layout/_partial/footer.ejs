@@ -4,9 +4,11 @@
        
     </span>
     <span class="footer__copyright">
-            <% if (theme.theme_message) { %> - <%- theme.theme_message %><% } %>
-         </span>
-       
+            <% if (theme.theme_message) { %><%- theme.theme_message %><% } %>
+    </span>
+    <span class="footer__copyright">
+            <% if (theme.icp_text) { %><%- theme.icp_text %><% } %>
+    </span>
     
   <% if (page.mathjax){ %>
         <%- partial('_partial/mathjax') %>
